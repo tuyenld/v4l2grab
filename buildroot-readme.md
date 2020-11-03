@@ -1,5 +1,6 @@
 Config.in
 ==========
+```
 config BR2_PACKAGE_MPK
 	bool "Raspberry Pi helloword"
 	select BR2_PACKAGE_LIBJPEG
@@ -8,10 +9,11 @@ config BR2_PACKAGE_MPK
 
 	  https://github.com/twam/v4l2grab
 
-
+```
 
 mpk.mk
 ==========
+```makefile
 ################################################################################
 #
 # My package
@@ -42,3 +44,4 @@ endef
 
 # $(eval $(generic-package))
 $(eval $(autotools-package))
+```
