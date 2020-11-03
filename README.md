@@ -1,3 +1,8 @@
+Fork note
+========
+Tested on Pi Zero v1.3 + Camera v1.3 5Mpb
+
+
 v4l2grab
 ========
 
